@@ -4,6 +4,7 @@ def main():
     print("add")
     print(1)
     print(2)
+    print(12345)
 
 
 if __name__ == '__main__':
