@@ -1,7 +1,7 @@
 def main():
     print("Гит в Пайчарме")
     print("add")
-    print("add1")
+    print("add")
 
 
 if __name__ == '__main__':
