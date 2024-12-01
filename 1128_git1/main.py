@@ -2,7 +2,7 @@ from random import randrange
 import sys
 from PyQt6.QtGui import QPainter, QColor
 from PyQt6 import uic
-from PyQt6.QtWidgets import QMainWindow, QApplication
+from PyQt6.QtWidgets import QMainWindow, QApplication, QPushButton
 
 
 def main():
@@ -21,9 +21,17 @@ if __name__ == '__main__':
 class Circle(QMainWindow):
     def __init__(self):
         super(Circle, self).__init__()
-        uic.loadUi('UI.ui', self)
         self.do_paint = False
-        self.pushButton.clicked.connect(self.paint)
+        self.unitui()
+
+    def unitui(self):
+        self.setGeometry(200, 200, 800, 800)
+        self.setWindowTitle('рисуй')
+        self.btn1 = QPushButton(self)
+        self.btn1.resize(790, 30)
+        self.btn1.move(5, 750)
+        self.btn1.setText("draw")
+        self.btn1.clicked.connect(self.paint)
 
     def paintEvent(self, event):
         if self.do_paint:
@@ -34,7 +42,7 @@ class Circle(QMainWindow):
         self.do_paint = False
 
     def draw_circle(self, qp):
-        qp.setPen(QColor(255, 255, 0))
+        qp.setPen(QColor(randrange(0, 256), randrange(0, 256), randrange(0, 256)))
         a = randrange(1, 600)
         qp.drawEllipse(10, 10, a, a)
 
