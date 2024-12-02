@@ -6,7 +6,7 @@ from PyQt6.QtWidgets import QMainWindow, QApplication, QPushButton
 
 
 def main():
-    print("ГИТ В ПАЙЧАРМЕ")
+    print("ГИТ В ПАЙЧАРМЕ!!!!!!!!!!!!!!!!!!!!!!!!!")
     print("add")
     print("add")
     print(1)
