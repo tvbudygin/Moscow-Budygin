@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2124f80-c668-4f08-acf2-be0340ccdd27" name="Changes" comment="task 2">
-      <change afterPath="$PROJECT_DIR$/1128_git1/2work.py" afterDir="false" />
+    <list default="true" id="d2124f80-c668-4f08-acf2-be0340ccdd27" name="Changes" comment="task 3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1128_git1/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/1128_git1/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +20,11 @@
       <list>
         <option value="tvbudygin &lt;165178313+tvbudygin@users.noreply.github.com&gt;" />
       </list>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -53,7 +56,7 @@
   "keyToString": {
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "master",
     "last_opened_file_path": "/Users/timbudygin/PycharmProjects/PG18"
   }
 }]]></component>
@@ -195,7 +198,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733058254963</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="task 3">
+      <option name="closed" value="true" />
+      <created>1733062088896</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1733062088896</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -213,6 +224,7 @@
     <MESSAGE value="Update main.py" />
     <MESSAGE value="add" />
     <MESSAGE value="task 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="task 2" />
+    <MESSAGE value="task 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="task 3" />
   </component>
 </project>
