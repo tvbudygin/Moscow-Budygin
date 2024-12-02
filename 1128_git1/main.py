@@ -6,13 +6,13 @@ from PyQt6.QtWidgets import QMainWindow, QApplication, QPushButton
 
 
 def main():
-    print("Гит в Пайчарме")
+    print("ГИТ В ПАЙЧАРМЕ!!!!!!!!!!!!!!!!!!!!!!!!!")
     print("add")
     print("add")
     print(1)
     print(2)
     print(12345)
-    print('asdf')
+    print(1234567890)
 
 
 if __name__ == '__main__':
