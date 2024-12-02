@@ -13,6 +13,7 @@ def main():
     print(2)
     print(12345)
     print('asdf')
+    print('конфликт')
 
 
 if __name__ == '__main__':
