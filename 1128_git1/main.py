@@ -13,6 +13,7 @@ def main():
     print(2)
     print(12345)
     print(1234567890)
+    print("конфликт в PyCharm")
 
 
 if __name__ == '__main__':
