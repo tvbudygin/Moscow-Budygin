@@ -1,9 +1,41 @@
 # python -m pygame.docs
 import pygame
+from random import random
+
+def draw1(screen):
+    screen.fill((0, 0, 0))
+    fon = pygame.font.Font(None, 50)
+    text = fon.render("Hello, PyGame", True, (255, 204, 0))
+    text_x = width // 2 - text.get_width() // 2
+    text_y = height // 2 - text.get_height() // 2
+    text_w = text.get_width()
+    text_h = text.get_height()
+    screen.blit(text, (text_x, text_y))
+    pygame.draw.rect(screen, (0, 255, 0), (text_x - 10, text_y - 10, text_w + 20, text_h + 20), 1)
+
+
+def draw_square(screen):
+    color = pygame.Color(50, 150, 50)
+    pygame.draw.rect(screen, color, (20, 20, 100, 100), 0)
+    hsv = color.hsla
+    color.hsla = (hsv[0], hsv[1], hsv[2] + 30, hsv[3])
+    pygame.draw.rect(screen, color, (10, 10, 100, 100))
+
+
+def draw_pixels(screen):
+    for _ in range(10000):
+        screen.fill(pygame.Color('white'), (random() * width, random() * height, 1, 1))
+
+
+def draw_polygon(screen):
+    pygame.draw.polygon(screen, pygame.Color((255, 204, 0)), [(0, 150), (200, 250), (100, 350)])
+
+
 if __name__ == "__main__":
     # pygame setup
     pygame.init()
-    screen = pygame.display.set_mode((1280, 720))
+    size = width, height = (800, 600)
+    screen = pygame.display.set_mode(size)
     clock = pygame.time.Clock()
     running = True
 
@@ -18,7 +50,10 @@ if __name__ == "__main__":
         screen.fill((0, 0, 0))
 
         # RENDER YOUR GAME HERE
-
+        draw1(screen)
+        draw_square(screen)
+        draw_pixels(screen)
+        draw_polygon(screen)
         # flip() the display to put your work on screen
         pygame.display.flip()
 
