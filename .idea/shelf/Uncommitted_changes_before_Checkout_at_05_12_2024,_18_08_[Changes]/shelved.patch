@@ -1,0 +1,16 @@
+Index: 1128_git1/first.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>def main():\n    print(\"My first git-repo\")\n\n\nif __name__ == '__main__':\n    main()
+===================================================================
+diff --git a/1128_git1/first.py b/1128_git1/first.py
+--- a/1128_git1/first.py	
++++ b/1128_git1/first.py	
+@@ -1,6 +1,0 @@
+-def main():
+-    print("My first git-repo")
+-
+-
+-if __name__ == '__main__':
+-    main()
+\ No newline at end of file
