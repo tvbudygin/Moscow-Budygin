@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2124f80-c668-4f08-acf2-be0340ccdd27" name="Changes" comment="add" />
+    <list default="true" id="d2124f80-c668-4f08-acf2-be0340ccdd27" name="Changes" comment="add">
+      <change beforePath="$PROJECT_DIR$/19.12_PyGame5/image/bomb.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/19.12_PyGame5/image/boom.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/19.12_PyGame5/image/owls.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/19.12_PyGame5/image/robot.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/19.12_PyGame5/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/19.12_PyGame5/main.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,14 +56,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;develop&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/timbudygin/PycharmProjects/PG18&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.i.executor": "Run",
+    "Python.iu.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.o.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/timbudygin/PycharmProjects/PG18"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/1128_git1" />
@@ -216,7 +225,23 @@
       <option name="project" value="LOCAL" />
       <updated>1733154701683</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="add">
+      <option name="closed" value="true" />
+      <created>1734622216421</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1734622216421</updated>
+    </task>
+    <task id="LOCAL-00015" summary="add">
+      <option name="closed" value="true" />
+      <created>1734623422591</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1734623422591</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

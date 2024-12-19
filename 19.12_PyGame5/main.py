@@ -10,18 +10,28 @@ def main():
     screen = pygame.display.set_mode(size)
     screen.fill("purple")
     clock = pygame.time.Clock()
-    image = load_image('owls.jpeg', -1)
+    # image = load_image('owls.png', -1)
+    #
+    # robot = load_image('robot.png', -1)
+    # image1 = pygame.transform.scale(robot, (200, 100))
+    # screen.blit(image1, (700, 200))
+    all_sprites = pygame.sprite.Group()
+    sprite = pygame.sprite.Sprite()
+    sprite.image = load_image("bomb.png", -1)
+    sprite.rect = sprite.image.get_rect()
+    sprite.rect.x = 100
+    sprite.rect.y = 200
+    all_sprites.add(sprite)
 
-    robot = load_image('robot.jpeg', -1)
-    image1 = pygame.transform.scale(robot, (200, 100))
-    screen.blit(image1, (700, 200))
     running = True
     while running:
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 running = False
             if event.type == pygame.MOUSEBUTTONDOWN:
-                screen.blit(image, event.pos)
+                all_sprites.draw(screen)
+            # if event.type == pygame.MOUSEBUTTONDOWN:
+            #     screen.blit(image, event.pos)
 
         pygame.display.flip()
 
